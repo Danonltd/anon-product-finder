@@ -1,6 +1,6 @@
 """Download a public-site catalog from a private Drive folder using service-account credentials."""
-import base64, datetime, json, os, pathlib, re, shutil
-from google.oauth2 import service_account
+import datetime, json, os, pathlib, re
+import google.auth
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 import io
@@ -9,12 +9,7 @@ ROOT=pathlib.Path(__file__).parent
 CAT=ROOT/'catalog'
 IMAGES=CAT/'images'
 FOLDER_ID=os.environ['DRIVE_FOLDER_ID']
-RAW=os.environ['GOOGLE_SERVICE_ACCOUNT_JSON']
-try:
-    info=json.loads(RAW)
-except json.JSONDecodeError:
-    info=json.loads(base64.b64decode(RAW))
-creds=service_account.Credentials.from_service_account_info(info,scopes=['https://www.googleapis.com/auth/drive.readonly'])
+creds, _ = google.auth.default(scopes=['https://www.googleapis.com/auth/drive.readonly'])
 api=build('drive','v3',credentials=creds,cache_discovery=False)
 IMAGES.mkdir(parents=True,exist_ok=True)
 entries=[]
