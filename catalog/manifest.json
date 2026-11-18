@@ -1,1 +1,61 @@
-{"updated_at":null,"images":[]}
+{
+  "updated_at": "2026-11-18T15:44:19+00:00",
+  "images": [
+    {
+      "sku": "BI30997G1",
+      "path": "catalog/images/1Y4NGbLWO62Q-WAeryZ9pfAH-ARXPqdVz.jpg"
+    },
+    {
+      "sku": "BI30997SS1",
+      "path": "catalog/images/1n5fRUk8npObpqLnfU4dTBbjMpDDw37R9.jpg"
+    },
+    {
+      "sku": "EI61018G1",
+      "path": "catalog/images/1541J8XaACrXraXHRxyCPthaVZCBUdScl.jpg"
+    },
+    {
+      "sku": "EI61018SS1",
+      "path": "catalog/images/1OyYx1IkFaqrCpXJnmGLD7ZQMxJwh81Ma.jpg"
+    },
+    {
+      "sku": "EI61019G1",
+      "path": "catalog/images/1KKkwRe6zAihGJOVftIE_FdcYGK4rn3Bp.jpg"
+    },
+    {
+      "sku": "EI61019SS1",
+      "path": "catalog/images/1gV_KXwTQnkcm_GtruZAaj5SYuxz13Cju.jpg"
+    },
+    {
+      "sku": "EI61020G1",
+      "path": "catalog/images/11rpvkHk46d5M8tuuOZ318QsJcETB9Ha_.jpg"
+    },
+    {
+      "sku": "EI61020SS1",
+      "path": "catalog/images/1tS8k9Cu0AtkcUFddPDE-gMveBEZUVWVw.jpg"
+    },
+    {
+      "sku": "EI61021G1",
+      "path": "catalog/images/14GLzu6R_t43D6h6PPxclunJAbfUyvNMr.jpg"
+    },
+    {
+      "sku": "EI61021SS1",
+      "path": "catalog/images/10BW0UxbyiRmLo5S5LgF5-9jijj6IQ7OH.jpg"
+    },
+    {
+      "sku": "NI50203G1",
+      "path": "catalog/images/1Qu9dAVWy7hHywqurK-iXaVtqb3do7Zkj.jpg"
+    },
+    {
+      "sku": "NI50203SS1",
+      "path": "catalog/images/1_ML7MWVXV2D-bPBL7mgwkIaelLTEbdWJ.jpg"
+    },
+    {
+      "sku": "NI50204G1",
+      "path": "catalog/images/1YNLrSU--pw-eKATQnZCGQbE7VK0pdlcn.jpg"
+    },
+    {
+      "sku": "NI50204SS1",
+      "path": "catalog/images/1WlIdf6Ywis_SHAm5bTceP1Z657VR-F_c.jpg"
+    }
+  ]
+}
