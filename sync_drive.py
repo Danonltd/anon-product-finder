@@ -15,7 +15,7 @@ IMAGES.mkdir(parents=True,exist_ok=True)
 entries=[]
 page=None
 while True:
-    response=api.files().list(q=f"'{FOLDER_ID}' in parents and trashed = false",fields='nextPageToken,files(id,name,mimeType,size)',page_size=1000,pageToken=page).execute()
+    response=api.files().list(q=f"'{FOLDER_ID}' in parents and trashed = false",fields='nextPageToken,files(id,name,mimeType,size)',pageSize=1000,pageToken=page).execute()
     for f in response.get('files',[]):
         if f.get('mimeType') not in ('image/jpeg','image/png','image/webp'):continue
         filename=f['name']
