@@ -23,7 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - run: python -m pip install google-api-python-client google-auth
+      - run: python -m pip install google-api-python-client google-auth Pillow
       - name: Download catalog
         env:
           DRIVE_FOLDER_ID: '1_GDcbzpphhFi91QqHSZ6Eetz1_2dsmx4'
